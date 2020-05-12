@@ -1,0 +1,74 @@
+{% extends "blog/base.html" %}
+{% block content %}
+
+<head>
+    <meta charset="UTF-8">
+
+</head>
+<body>
+<h1>大阪</h1>
+<link rel="stylesheet" type="text/css" href="/static/css/shopp.css">
+    <img src="/static/img/shopping.jpg" alt="圖片替代文字">
+<div class="dropdown">
+  <button class="dropbtn">shoppingparadise</button>
+  <div class="dropdown-content">
+    <a href="{% url 'blog-loskak' %}">大阪</a>
+
+    <a href="blog/templates/blog/about.html" target="_self">名古屋</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">日本茶</button>
+  <div class="dropdown-content">
+    <a href="blog/templates/blog/about.html" target="_self">綠茶</a>
+    <a href="blog/templates/blog/about.html" target="_self">東玄米茶京 </a>
+    <a href="blog/templates/blog/about.html" target="_self">麥茶 </a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">日本食品</button>
+  <div class="dropdown-content">
+    <a href="blog/templates/blog/about.html" target="_self">零食‎ </a>
+    <a href="blog/templates/blog/about.html" target="_self">和果子 </a>
+    <a href="//www.runoob.com">menu 3</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">酒精飲品</button>
+  <div class="dropdown-content">
+    <a href="blog/templates/blog/about.html" target="_self">清酒</a>
+    <a href="blog/templates/blog/about.html" target="_self">米酒</a>
+    <a href="//www.runoob.com">menu 3</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">下拉菜单33</button>
+  <div class="dropdown-content">
+    <a href="//www.runoob.com">menu</a>
+    <a href="//www.runoob.com">menu 5</a>
+    <a href="//www.runoob.com">menu 3</a>
+  </div>
+</div>
+
+
+<div class="shopptext">
+    <a>大阪市是位於日本大阪府中部的都市，為大阪府府治，為政令指定都市，亦是大阪都市圈、京阪神大都市圈、乃至於近畿地方的中心城市。全市面積223平方公里，夜間人口約有269.5萬人，是日本人口第三多的城市；日間人口則超過353萬人，位居日本第二。 大阪自奈良時代起，就因其臨海的地理位置成為貿易港口，並曾在此建立「難波京」。</a>
+  </div>
+<div><a>
+    <li>大阪南區（MINAMI）的代表性老字號百貨商店，</li>
+    <li>直通南海電鐵的「難波站」以及地鐵的「難波站」，可由關西國際機場直達。</li>
+    <li>以精選的奢華品區為首，設有化妝品賣場等，產品種類也十分齊全。</li>
+    <li>7-9樓是美食街「難波Dining Maison」，按主題分區，菜系多種多樣。</li></a>
+    <img src="/static/img/001.jpg" alt="圖片替代文字">
+</div>
+
+    <div class="scrollmenu">
+</div>
+<iframe src="https://www.google.com/maps/embed?pb=!4v1578644846605!6m8!1m7!1s_3D2d4M2fsPbPeUHbNOmSw!2m2!1d34.6671236732464!2d135.4983887464283!3f151.51285707084574!4f15.281003838490648!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+</body>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1035.0835282609064!2d135.49857334066047!3d34.66724747431341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa0190ff32c804ca7!2z6Zuj5rOi6aeF!5e1!3m2!1szh-TW!2shk!4v1578644921791!5m2!1szh-TW!2shk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+{% endblock content %}

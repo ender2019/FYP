@@ -1,0 +1,139 @@
+{% extends "blog/base.html" %}
+{% block content %}
+
+<head>
+    <meta charset="UTF-8">
+
+</head>
+<body>
+<h1>日本酒店預訂〜 宿在扶桑</h1>
+<link rel="stylesheet" type="text/css" href="/static/css/shopp.css">
+    <img width="1600" height="800" src="https://pix6.agoda.net/hotelImages/4601465/-1/1eb46f7527a115933ee2924d2401a852.jpg?s=1024x768" alt="日本旅遊">
+
+<div class="shopptext">
+    <a>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+網站提供日本酒店、日本飯店、日本溫泉旅館等日本住宿設施的訂房資訊，提供日本自由行酒店和日本溫泉旅館的在線預訂。日本漫遊網站推薦有志於積極為外國遊客提供住宿服務、善待自由行遊客的日本住宿設施，努力為自由行訪日遊客提供貼心服務，幫助您解決日本訂房疑難問題。      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    </a>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn"><a href="https://www.expedia.com.hk/Tokyo-Hotels.d179900.Travel-Guide-Hotels-HK">特價速銷</a></button>
+</div>
+
+<br>
+
+<div class="dropdown">
+  <button class="dropbtn">著名酒店</button>
+  <div class="dropdown-content">
+    <a href="{% url 'blog-ltokyo' %}">東京文華東方酒店</a>
+    <a href="{% url 'blog-ltokyo' %}">Hotel Mume</a>
+    <a href="{% url 'blog-loskak' %}">東京凱悅花園酒店</a>
+    <a href="{% url 'blog-ltokyo' %}">東京皇宮酒店</a>
+    <a href="https://www.agoda.com/zh-hk/intercontinental-hotel-osaka/hotel/osaka-jp.html?cid=1844104">大阪洲際飯店</a>
+    <a href="{% url 'blog-lhokkaido' %}">東京香格里拉大酒店</a>
+    <a href="{% url 'blog-ltokyo' %}">山梨湖山亭 Ubuya</a>
+    <a href="{% url 'blog-ltokyo' %}">東京康萊德國際酒店</a>
+  </div>
+</div>
+
+
+<div class="dropdown">
+  <button class="dropbtn">地區酒店劃分</button>
+  <div class="dropdown-content">
+    <a href="{% url 'blog-ltokyo' %}">九州地區</a>
+    <a href="{% url 'blog-ltokyo' %}">中國地區</a>
+    <a href="{% url 'blog-loskak' %}">中部地區</a>
+    <a href="{% url 'blog-hhokkaido' %}">北海道地區</a>
+    <a href="{% url 'blog-ltokyo' %}">東北地區</a>
+    <a href="{% url 'blog-ltokyo' %}">關東地區</a>
+    <a href="{% url 'blog-ltokyo' %}">近畿地區</a>
+    <a href="{% url 'blog-ltokyo' %}">四個地區</a>
+    <a href="{% url 'blog-ltokyo' %}">沖繩地區</a>
+  </div>
+</div>
+
+
+
+<div class="dropdown">
+  <button class="dropbtn">本月高人氣地方</button>
+  <div class="dropdown-content">
+    <a href="{% url 'blog-ltokyo' %}">APA飯店 - 新宿歌舞伎町大樓 (APA Hotel Shinjuku-Kabukicho Tower)</a>
+    <a href="{% url 'blog-ltokyo' %}">格拉斯麗新宿酒店 (Hotel Gracery Shinjuku)</a>
+    <a href="{% url 'blog-ltokyo' %}">東京大都會飯店 (Hotel Metropolitan Tokyo Ikebukuro)</a>
+    <a href="{% url 'blog-ltokyo' %}">池袋站百夫長酒店 (Centurion Hotel Ikebukuro Station)</a>
+    <a href="{% url 'blog-ltokyo' %}">新宿JR九州飯店 (JR Kyushu Hotel Blossom Shinjuku)</a>
+    <a href="{% url 'blog-ltokyo' %}">東京大都會飯店 (Hotel Metropolitan Tokyo Ikebukuro)</a>
+    <a href="{% url 'blog-ltokyo' %}">MIMARU公寓式飯店 - 東京上野東 (MIMARU Tokyo Ueno East)</a>
+
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">特色酒店</button>
+  <div class="dropdown-content">
+    <a href="{% url 'blog-ltokyo' %}">格拉斯麗新宿酒店 (Hotel Gracery Shinjuku)</a>
+    <a href="{% url 'blog-ltokyo' %}">星野TOMAMU渡假村 (北海道)</a>
+    <a href="{% url 'blog-ltsruimura' %}">Sweet Grass (群馬)</a>
+    <a href="{% url 'blog-loskak' %}">Villa Santorini (高知)</a>
+    <a href="{% url 'blog-ltokyo' %}">神戶Winbell Magic (神戶)</a>
+    <a href="{% url 'blog-ltokyo' %}">Toretore Villiage (和歌山)</a>
+    <a href="{% url 'blog-ltokyo' %}">First Cabin（東京・京都・大阪・福岡）</a>
+    <a href="{% url 'blog-ltokyo' %}">日本樂高園地酒店 (名古屋)</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">特別推薦</button>
+  <div class="dropdown-content">
+    <a href="{% url 'blog-ltokyo' %}">上野諾加飯店</a>
+    <a href="{% url 'blog-lsapporo' %}">三井花園飯店上野</a>
+    <a href="{% url 'blog-ltokyo' %}">上野Sardonyx飯店</a>
+    <a href="{% url 'blog-loskak' %}">新宿苑溫泉日式旅館</a>
+    <a href="{% url 'blog-ltokyo' %}">新宿燦路都廣場大飯店</a>
+
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn"><a href="{% url 'blog-lall' %}">全部地方</a></button>
+</div>
+
+
+
+
+
+<div class="shopptext">
+    <a>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    </a>
+</div>
+
+<div class="scrollmenu">
+</div>
+</body>
+
+{% endblock content %}

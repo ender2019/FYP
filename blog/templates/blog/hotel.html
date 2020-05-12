@@ -1,0 +1,149 @@
+{% extends "blog/base.html" %}
+{% block content %}
+
+<head>
+    <meta charset="UTF-8">
+
+</head>
+<body>
+<h1>周遊日本列島</h1>
+<link rel="stylesheet" type="text/css" href="/static/css/shopp.css">
+    <img width="1600" height="800" src="https://i1.wp.com/www.tripresso.com/blog/wp-content/uploads/2019/04/shutterstock_1135776710-e1555927505452.jpg?resize=800%2C400&amp;ssl=1" class="attachment-easyblog-blog-img size-easyblog-blog-img wp-post-image" alt="日本旅遊">
+
+<div class="shopptext">
+    <a>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+  日本旅遊觀光資訊。日本旅遊景點推薦。日本列島地處亞洲東部太平洋中，東西狹長，跨越亞寒帶和亞熱帶。日本四季分明，自然環境優美，旅遊資源豐富。日本的主要旅遊城市有東京、大阪、京都、橫濱、鐮倉、名古屋、奈良、神戶、廣島、福岡、北海道、沖繩等地。著名旅遊風景區和溫泉地有富士山、箱根、伊豆半島、日光、草津、南紀白濱、別府等地。日本漫遊網站日本自由行推薦旅遊景點。
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    </a>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn"><a href="https://digjapan.travel/zh_tw/list_plan/">行程規劃</a></button>
+</div>
+
+<br>
+
+<div class="dropdown">
+  <button class="dropbtn">著名地方</button>
+  <div class="dropdown-content">
+    <a href="{% url 'blog-ltokyo' %}">著名地方</a>
+    <a href="{% url 'blog-ltokyo' %}">東京</a>
+    <a href="{% url 'blog-loskak' %}">大阪</a>
+    <a href="{% url 'blog-ltokyo' %}">京都</a>
+    <a href="{% url 'blog-ltokyo' %}">名古屋</a>
+    <a href="{% url 'blog-lhokkaido' %}">北海道</a>
+    <a href="{% url 'blog-ltokyo' %}">沖繩</a>
+    <a href="{% url 'blog-ltokyo' %}">神戶</a>
+  </div>
+</div>
+
+
+<div class="dropdown">
+  <button class="dropbtn">地區劃分</button>
+  <div class="dropdown-content">
+    <a href="{% url 'blog-ltokyo' %}">地區劃分</a>
+    <a href="{% url 'blog-ltokyo' %}">九州地區</a>
+    <a href="{% url 'blog-ltokyo' %}">中國地區</a>
+    <a href="{% url 'blog-loskak' %}">中部地區</a>
+    <a href="{% url 'blog-lhokkaido' %}">北海道地區</a>
+    <a href="{% url 'blog-ltokyo' %}">東北地區</a>
+    <a href="{% url 'blog-ltokyo' %}">關東地區</a>
+    <a href="{% url 'blog-ltokyo' %}">近畿地區</a>
+    <a href="{% url 'blog-ltokyo' %}">四個地區</a>
+    <a href="{% url 'blog-ltokyo' %}">沖繩地區</a>
+  </div>
+</div>
+
+
+
+<div class="dropdown">
+  <button class="dropbtn">本月高人氣地方</button>
+  <div class="dropdown-content">
+    <a href="{% url 'blog-ltokyo' %}">本月高人氣地方</a>
+    <a href="{% url 'blog-ltokyo' %}">長野</a>
+    <a href="{% url 'blog-ltokyo' %}">京都</a>
+    <a href="{% url 'blog-loskak' %}">滋賀・琵琶湖</a>
+    <a href="{% url 'blog-ltokyo' %}">富士山</a>
+    <a href="{% url 'blog-ltokyo' %}">福岡・博多</a>
+    <a href="{% url 'blog-ltokyo' %}">熊本</a>
+    <a href="{% url 'blog-ltokyo' %}">岐阜</a>
+    <a href="{% url 'blog-ltokyo' %}">東京</a>
+    <a href="{% url 'blog-ltokyo' %}">千葉</a>
+    <a href="{% url 'blog-ltokyo' %}">青森</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">特色地方</button>
+  <div class="dropdown-content">
+    <a href="{% url 'blog-ltokyo' %}">特色地方</a>
+    <a href="{% url 'blog-ltokyo' %}">北海道美瑛町</a>
+    <a href="{% url 'blog-ltsruimura' %}">北海道鶴居村</a>
+    <a href="{% url 'blog-loskak' %}">秋田東成瀬村</a>
+    <a href="{% url 'blog-ltokyo' %}">群馬六合村</a>
+    <a href="{% url 'blog-ltokyo' %}">長野原村</a>
+    <a href="{% url 'blog-ltokyo' %}">山梨早川町</a>
+    <a href="{% url 'blog-ltokyo' %}">靜岡川根本町</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">特別推薦</button>
+  <div class="dropdown-content">
+    <a href="{% url 'blog-ltokyo' %}">特別推薦</a>
+    <a href="{% url 'blog-lsapporo' %}">札幌</a>
+    <a href="{% url 'blog-ltokyo' %}">京都</a>
+    <a href="{% url 'blog-loskak' %}">東京</a>
+    <a href="{% url 'blog-ltokyo' %}">橫濱</a>
+    <a href="{% url 'blog-ltokyo' %}">名古屋</a>
+    <a href="{% url 'blog-ltokyo' %}">奈良</a>
+    <a href="{% url 'blog-ltokyo' %}">大阪</a>
+    <a href="{% url 'blog-ltokyo' %}">神戶</a>
+    <a href="{% url 'blog-ltokyo' %}">廣島</a>
+    <a href="{% url 'blog-ltokyo' %}">沖繩</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn"><a href="{% url 'blog-lall' %}">全部地方</a></button>
+</div>
+
+
+
+
+
+<div class="shopptext">
+    <a>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    </a>
+</div>
+
+<div class="scrollmenu">
+</div>
+</body>
+
+{% endblock content %}

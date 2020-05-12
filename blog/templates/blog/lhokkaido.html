@@ -1,0 +1,78 @@
+{% extends "blog/base.html" %}
+{% block content %}
+
+<head>
+    <meta charset="UTF-8">
+
+</head>
+<body>
+<h1>周遊日本列島</h1>
+<link rel="stylesheet" type="text/css" href="/static/css/shopp.css">
+    <img src="/static/img/shopping.jpg" alt="圖片替代文字">
+<div class="dropdown">
+  <button class="dropbtn">shoppingparadise</button>
+  <div class="dropdown-content">
+    <a href="{% url 'blog-ltokyo' %}">東京</a>
+    <a href="{% url 'blog-loskak' %}">大阪</a>
+    <a href="{% url 'blog-ltokyo' %}">京都</a>
+    <a href="{% url 'blog-ltokyo' %}">名古屋</a>
+    <a href="{% url 'blog-ltokyo' %}">北海道</a>
+    <a href="{% url 'blog-ltokyo' %}">沖繩</a>
+    <a href="{% url 'blog-ltokyo' %}">神戶</a>
+
+
+
+</div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">日本茶</button>
+  <div class="dropdown-content">
+    <a href="blog/templates/blog/about.html" target="_self">綠茶</a>
+    <a href="blog/templates/blog/about.html" target="_self">東玄米茶京 </a>
+    <a href="blog/templates/blog/about.html" target="_self">麥茶 </a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">日本食品</button>
+  <div class="dropdown-content">
+    <a href="blog/templates/blog/about.html" target="_self">零食‎ </a>
+    <a href="blog/templates/blog/about.html" target="_self">和果子 </a>
+    <a href="//www.runoob.com">menu 3</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">酒精飲品</button>
+  <div class="dropdown-content">
+    <a href="blog/templates/blog/about.html" target="_self">清酒</a>
+    <a href="blog/templates/blog/about.html" target="_self">米酒</a>
+    <a href="//www.runoob.com">menu 3</a>
+  </div>
+</div>
+
+
+
+
+<div class="shopptext"></div>
+    <a>
+<p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+
+  日本旅遊觀光資訊。日本旅遊景點推薦。日本列島地處亞洲東部太平洋中，東西狹長，跨越亞寒帶和亞熱帶。日本四季分明，自然環境優美，旅遊資源豐富。日本的主要旅遊城市有東京、大阪、京都、橫濱、鐮倉、名古屋、奈良、神戶、廣島、福岡、北海道、沖繩等地。著名旅遊風景區和溫泉地有富士山、箱根、伊豆半島、日光、草津、南紀白濱、別府等地。日本漫遊網站日本自由行推薦旅遊景點。
+<p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    </a>
+</div>
+
+
+    <div class="scrollmenu">
+</div>
+</body>
+
+{% endblock content %}
